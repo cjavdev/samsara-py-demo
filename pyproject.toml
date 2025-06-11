@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-demo"
+version = "0.1.0"
+description = ""
+authors = ["CJ Avilla <cj.avilla@samsara.com>"]
+readme = "README.md"
+packages = [{include = "py_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+samsara-api = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
