@@ -8,7 +8,9 @@ packages = [{include = "py_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-samsara-api = "^0.0.1"
+samsara-api = "^2.0.0"
+asyncio = "^3.4.3"
+flask = "^3.1.1"
 
 
 [build-system]
